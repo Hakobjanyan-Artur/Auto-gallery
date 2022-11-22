@@ -1,0 +1,69 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbarHr {
+    display: block;
+    border: 1px solid rgba(32, 65, 250, 0.514);
+    box-shadow: 0 0 10px rgba(32, 65, 250, 0.514);
+}
+nav ul{
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+}
+nav ul li {
+    position: relative;
+    border: 1px solid rgba(32, 65, 250, 0.514);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li .li {
+    color: #fff;
+}
+.logoBtn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-size: 3vh;
+    color: rgba(32, 65, 250, 0.514);
+    text-shadow: 0 0 20px rgba(32, 65, 250, 0.514);
+}
+header .navBtnBack, header .navBtnNext {
+    width: 80px;
+    height: 30px;
+    border: 1px solid rgba(32, 65, 250, 0.514);
+    background: none;
+    font-size: 18px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(32, 65, 250, 0.514) inset;
+    cursor: pointer;
+    transition: .5s;
+}
+header .navBtnBack:hover, header .navBtnNext:hover {
+    background: rgba(32, 65, 250, 0.514);
+    box-shadow: 0 0 20px rgba(32, 65, 250, 0.514);
+}
+.navInput {
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgba(32, 65, 250, 0.514);
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.navInput::placeholder {
+    padding-left: 20px;
+}

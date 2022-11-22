@@ -1,0 +1,28 @@
+.postImg {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.postImg img {
+    border-radius: 20px;
+    transition: .6s;
+}
+.postImg img:hover {
+    transform: scale(120%);
+}
+.postBtn {
+    width: 120px;
+    height: 30px;
+    border: 1px solid rgba(32, 65, 250, 0.514);
+    background: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(32, 65, 250, 0.514) inset;
+    cursor: pointer;
+    transition: .5s;
+}
+.postBtn:hover {
+    background: rgba(32, 65, 250, 0.514);
+    box-shadow: 0 0 20px rgba(32, 65, 250, 0.514);
+}

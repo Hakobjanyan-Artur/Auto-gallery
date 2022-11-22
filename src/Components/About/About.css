@@ -1,0 +1,204 @@
+h1{
+    text-align: center;
+    color: #fff;
+}
+hr{
+    display: block;
+    border: 1px solid rgb(85, 85, 85);
+}
+.loadBody {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+.loadBody .loadContent {
+    margin-top: 20px;
+    width: 220px;
+    height: 220px;
+    position: relative;
+    animation: anime 3s linear infinite;
+}
+.loadBody h2 {
+    position: absolute;
+    left: 44%;
+    top: 65%;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0 10px 15px #000;
+}
+.ring1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(0, 37, 250, 0.945);
+    box-shadow: 0 0 25px rgba(2, 39, 247, 0.842);
+    position: absolute;
+    left: 0;
+    top: 45%;
+}
+.ring2 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(0, 37, 250, 0.945);
+    box-shadow: 0 0 25px rgba(2, 39, 247, 0.842);
+    position: absolute;
+    left: 47%;
+    top: 0;
+}
+.ring3 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(0, 37, 250, 0.945);
+    box-shadow: 0 0 25px rgba(2, 39, 247, 0.842);
+    position: absolute;
+    right: 0;
+    top: 45%;
+}
+.ring4 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(0, 37, 250, 0.945);
+    box-shadow: 0 0 25px rgba(2, 39, 247, 0.842);
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+}
+.ring5 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(0, 37, 250, 0.945);
+    box-shadow: 0 0 25px rgba(2, 39, 247, 0.842);
+    position: absolute;
+    bottom: 30px;
+    left: 15%;
+}
+.ring6 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(0, 37, 250, 0.945);
+    box-shadow: 0 0 25px rgba(2, 39, 247, 0.842);
+    position: absolute;
+    bottom: 30px;
+    right: 15%;
+}
+.ring7 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(0, 37, 250, 0.945);
+    box-shadow: 0 0 25px rgba(2, 39, 247, 0.842);
+    position: absolute;
+    top: 30px;
+    left: 15%;
+}
+.ring8 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(0, 37, 250, 0.945);
+    box-shadow: 0 0 25px rgba(2, 39, 247, 0.842);
+    position: absolute;
+    top: 30px;
+    right: 15%;
+}
+@keyframes anime {
+    0% {
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.checkBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.checkBtn form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.checkBtn form input {
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgba(32, 65, 250, 0.514);
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.checkBtn button {
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(32, 65, 250, 0.514);
+    background: none;
+    font-size: 18px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(32, 65, 250, 0.514) inset;
+    cursor: pointer;
+    transition: .5s;
+}
+.checkBtn button:hover {
+    background: rgba(32, 65, 250, 0.514);
+    box-shadow: 0 0 20px rgba(32, 65, 250, 0.514);
+}
+.component {
+    border: 1px solid rgba(32, 65, 250, 0.514);
+    box-shadow: 0 0 10px rgba(32, 65, 250, 0.514);
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.title{
+    color: #fff;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.btns .del {
+    width: 40px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgba(32, 65, 250, 0.514);
+    background: none;
+    font-size: 16px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(32, 65, 250, 0.514) inset;
+    cursor: pointer;
+    transition: .5s;
+}
+.btns .del:hover {
+    background: rgba(32, 65, 250, 0.514);
+    box-shadow: 0 0 20px rgba(32, 65, 250, 0.514);
+}
+.selText{
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgba(32, 65, 250, 0.514);
+    background: none;
+    font-size: 16px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(32, 65, 250, 0.514) inset;
+    cursor: pointer;
+    transition: .5s;
+}
+.selText:hover {
+    background: rgba(32, 65, 250, 0.514);
+    box-shadow: 0 0 20px rgba(32, 65, 250, 0.514);
+}

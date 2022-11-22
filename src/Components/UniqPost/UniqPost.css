@@ -1,0 +1,30 @@
+.divUniq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.divUniq img {
+    border-radius: 50px;
+}
+.container {
+    max-width: 1140px;
+    margin: 50px auto;
+}
+.uniqBtn {
+    width: 80px;
+    height: 30px;
+    border: 1px solid rgba(32, 65, 250, 0.514);
+    background: none;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(32, 65, 250, 0.514) inset;
+    cursor: pointer;
+    transition: .5s;
+    margin-bottom: 50px;
+}
+.uniqBtn:hover {
+    background: rgba(32, 65, 250, 0.514);
+    box-shadow: 0 0 20px rgba(32, 65, 250, 0.514);
+}
